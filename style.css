@@ -1,0 +1,181 @@
+
+
+p{
+    margin:25px;
+    text-align: center;
+}
+
+
+
+
+h1{
+ text-align: center;
+ background-color:rgb(250, 165, 217) ;
+
+}
+
+.bloemsoorten{
+
+    display:flex;
+    align-items:center;
+    min-height:100vh;
+    background-size:cover;
+    background-position: center;
+
+
+}
+
+body{
+    background-image: url(../images/bloemetjess.webp);
+    width: 100%
+    
+    
+}
+
+*{
+
+    margin: 0px;, padding:0;
+    font-family: Verdana. Geneva, Tahoma, sans-serif;
+    outline: none, border:none;
+    text-transform: capitalize;
+    
+}
+
+.contact-box{
+    width: 300px;
+    background-color:#fff;
+    top: 60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    }
+
+.form{
+margin: 35px;
+}
+
+.input-field{
+width: 300px;
+height:30px;
+margin-top:20px;
+padding-left:10px;
+padding-right:10px;
+border:1px solid #777;
+border: radius 14px;
+outline:none;
+}
+
+.textarea-field{
+    height:100px;
+    padding-top:10px;
+}
+
+
+
+
+
+nav{
+    width:100%;
+    height: 100px;
+    background-color:rgb(250, 165, 217);
+}
+
+ul{
+margin-left: 60px;
+}
+
+ul li{
+
+
+display: inline-block;
+float:left;
+line-height: 100px
+}
+
+ul li a{
+    
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#1e1e1e;
+    padding:0 20px;
+}
+
+ul li a:hover{
+    
+    color:#e06695;
+   
+}
+
+
+
+h3{
+
+position: center;
+left: 600px;
+top: 250px;
+
+}
+
+h2{
+text-align:center;
+
+}
+
+
+@media(max-width: 1024px)
+ul li a:hover{
+
+
+
+}
+
+
+@media (max-width: 1024px) {
+    p{
+        font-size: 20px;
+        line-height: 3rem;
+        color:rgb(2, 61, 2);
+        
+    }
+
+  
+
+@media (max-width: 1024px) {
+    h1{
+
+    font-size: 50px; 
+    color:rgb(32, 136, 184);
+    line: height 50px;
+    letter spacing: 2px;
+    background-color:#fff;
+    } 
+
+
+
+
+    @media (min-width: 1024px) {
+        h2{
+    
+        font-size: 2vw; 
+        color:rgb(2, 61, 2);
+        line: height 50px;
+        letter spacing: 2px;
+        
+        } 
+        
+
+        
+    @media screen and (min-width 1024 px)
+    span{
+        line: height 50px;
+    letter spacing: 5px;
+     
+    }
+
+   
+
+
+    
+
+    }
